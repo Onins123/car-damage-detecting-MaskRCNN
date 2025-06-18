@@ -42,7 +42,7 @@ def getwidth(path):
 
 def damage():
 	fileupload = False
-	cost_for_damage = True
+	cost_for_damage = False
 	if request.method == 'POST':
 		# File Upload
 		fileupload=True
